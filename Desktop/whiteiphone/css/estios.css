@@ -4,39 +4,75 @@
     box-sizing: border-box;
 }
 
-.logo{
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-}
-
-.navegacion{
-    background-color: gray;
-}
-
-.puntito{
-    list-style: none;
-    text-align: center;
+.body{
+    background-color: rgba(0, 0, 0, 0.884);
+    background-image: url(../asset/img/650_1200.png);
+    background-repeat: inherit;
+   
 }
 
 
-.listaNav{
-    display: inline-block;
+.colorNav{
+    background-color: rgba(128, 128, 128, 0.521);
+    
 }
-
-.blanco{
-    color: white;
-    font-size: 1.5rem;
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-
-
 .logo{
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
+}
+
+
+.blanco{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.containerImgGaleria img{
+   height: 100%;
+   background-color: gray;
+   
+}
+
+.containerImgGaleria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     
     
+}
+
+.footer{
+    background-color: rgba(128, 128, 128, 0.61);
+    height: 60vh;
+}
+
+.linkFooter ul{
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.linkFooter ul li{
+    margin-bottom: 10px;
+}
+
+.colorlink{
+    color: white;
+    text-decoration: none;
+}
+
+.icono{
+    color: white;
 }
