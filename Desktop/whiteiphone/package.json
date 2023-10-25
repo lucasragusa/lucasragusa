@@ -1,0 +1,14 @@
+{
+  "name": "whiteiphone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch input.scss css/estios.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.4"
+  }
+}
