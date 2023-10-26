@@ -1,0 +1,47 @@
+@import "reset.scss";
+@import "galeria.scss";
+@import "animaciones.scss";
+@import "footer.scss"
+
+
+
+.body {
+
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.884);
+    background-image: url(../asset/img/650_1200.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: inherit;
+}
+
+.colorNav {
+    background-color: rgba(100, 83, 83, 0.521);
+}
+
+.logo {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.blanco {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+.titulo {
+    color: white;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
