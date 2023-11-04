@@ -1,27 +1,25 @@
 .footer{
     background-color: rgba(128, 128, 128, 0.61);
-    height: 60vh;
-    .linkFooter ul{
-        list-style: none;
-        padding-left: 0;
-        justify-content: center;
-        text-align: center;
-        .linkFooter ul li{
-            margin-bottom: 10px;
-            .colorlink{
-                color: white;
-                text-decoration: none;
-            }
-            .icono{
-                color: white;
-            }
-            
-        }
-        
+    height: 60vh;    
+}
+
+.linkFooter ul{
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+    text-align: center;
+    & li{
+        margin-bottom: 10px;
     }
     
 }
 
-
+.colorlink{
+    color: white;
+    text-decoration: none;
+}
+.icono{
+    color: white;
+}
 
 
